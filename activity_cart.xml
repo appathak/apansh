@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/preview">
+	
+	<FrameLayout
+        android:id="@+id/cartframe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cart"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageButton
+        android:id="@+id/del"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/del" 
+        android:contentDescription="Delete Button"
+        android:layout_gravity="end"/>
+
+    <Button
+        android:id="@+id/confrmbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm" />
+
+    </FrameLayout>
+
+	<ListView
+	    android:id="@+id/listView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:layout_marginLeft="15sp"
+	    android:layout_marginRight="15sp"
+	    android:layout_marginBottom="15sp">
+	</ListView>
+
+</LinearLayout>

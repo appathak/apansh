@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/grey2">
+
+        <EditText
+            android:id="@+id/pid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="20sp"
+            android:inputType="number"
+            android:textColor="@android:color/background_light" 
+            android:hint="Promoid..">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/pmsg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="60sp"
+            android:inputType="textMultiLine" 
+            android:textColor="@android:color/background_light"
+            android:hint="Promomsg"/>
+
+        <EditText
+            android:id="@+id/pcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+            android:ems="10" 
+            android:textColor="@android:color/background_light"
+            android:hint="promocode.."/>
+
+        <Button
+            android:id="@+id/addpromo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="150sp"
+            android:text="Add" />
+
+        <Button
+            android:id="@+id/DeletePromo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginTop="200sp"
+            android:text="Delete" />
+
+    </FrameLayout>
+
+</LinearLayout>

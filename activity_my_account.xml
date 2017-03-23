@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/grey2">
+
+    <FrameLayout
+        android:id="@+id/acctframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/grey2"
+        android:layout_margin="10sp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="10sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address:"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="40sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="105dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="80sp"
+            android:layout_marginRight="10sp"
+            android:text=""
+            android:background="@android:color/darker_gray"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/primary_text_dark_nodisable" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200sp"/>
+
+    </FrameLayout>
+
+</LinearLayout>

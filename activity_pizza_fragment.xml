@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/grey1">
+
+   	
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+
+    <FrameLayout
+        android:id="@+id/pizzafrag1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grey1" >
+		
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_orange_light" />
+    
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="80sp"
+            android:src="@drawable/vegpizza1" />
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="210sp"
+            android:src="@drawable/vegpizza2" />
+
+        <ImageView
+            android:id="@+id/ImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="340sp"
+            android:src="@drawable/vegpizza3" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Classic cheese-200"
+            android:layout_marginTop="80sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Italian Treat-300"
+            android:layout_marginTop="210sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paneer Vegorama-300"
+            android:layout_marginTop="340sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="110sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+
+        <Spinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="240sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+        
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="370sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+        
+        <Button
+            android:id="@+id/add1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+        
+        <Button
+            android:id="@+id/add2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="280sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+        
+        <Button
+            android:id="@+id/add3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="410sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+
+    </FrameLayout>
+	</LinearLayout>
+    </ScrollView>
+</LinearLayout>

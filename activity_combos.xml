@@ -1,0 +1,146 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/grey1">
+
+   	
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+
+    <FrameLayout
+        android:id="@+id/combofrag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/grey1" >
+    
+
+        <ImageView
+            android:id="@+id/cmbimageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="40sp"
+            android:src="@drawable/combo" />
+
+        <ImageView
+            android:id="@+id/cmbImageView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="170sp"
+            android:src="@drawable/combo" />
+
+        <ImageView
+            android:id="@+id/cmbImageView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15sp"
+            android:layout_marginTop="310sp"
+            android:src="@drawable/combo" />
+
+        <TextView
+            android:id="@+id/cmbt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg Singles-200"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/cmbt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veg Doubles-300"
+            android:layout_marginTop="170sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/cmbt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chicken combo-300"
+            android:layout_marginTop="300sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textSize="20sp"
+            android:textColor="@android:color/background_light"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <Spinner
+            android:id="@+id/cmbspinner2"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="70sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+
+        <Spinner
+            android:id="@+id/cmbspinner3"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="200sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+        
+        <Spinner
+            android:id="@+id/cmbspinner4"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="330sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"/>
+        
+        <Button
+            android:id="@+id/cmbadd1"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+        
+        <Button
+            android:id="@+id/cmbadd2"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+        
+        <Button
+            android:id="@+id/cmbadd3"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="370sp"
+            android:layout_marginRight="20sp"
+            android:layout_marginLeft="200sp"
+            android:textColor="@android:color/background_light"
+            android:text="Add to cart" />
+
+    </FrameLayout>
+	</LinearLayout>
+    </ScrollView>
+</LinearLayout>
