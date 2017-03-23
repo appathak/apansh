@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.connoisseur"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.connoisseur.MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Pizza"
+            android:label="@string/title_activity_pizza" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Burgers"
+            android:label="@string/title_activity_burgers" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Chicken"
+            android:label="@string/title_activity_chicken" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Beverages"
+            android:label="@string/title_activity_beverages" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Deserts"
+            android:label="@string/title_activity_deserts" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Combos"
+            android:label="@string/title_activity_combos" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.PizzaFragment"
+            android:label="@string/title_activity_pizza_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.PizzaFragment1"
+            android:label="@string/title_activity_pizza_fragment1" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Cart"
+            android:label="@string/title_activity_cart" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Info"
+            android:label="@string/title_activity_info" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Registration"
+            android:label="@string/title_activity_registration" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.MyAccount"
+            android:label="@string/title_activity_my_account" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.OrderChoice"
+            android:label="@string/title_activity_order_choice" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Billing"
+            android:label="@string/title_activity_billing" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.AlertWindow"
+            android:label="@string/title_activity_alert_window" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Admin"
+            android:label="@string/title_activity_admin" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.BurgerFragment"
+            android:label="@string/title_activity_burger_fragment" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Adminoperation"
+            android:label="@string/title_activity_adminoperation" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Adminfrag1"
+            android:label="@string/title_activity_adminfrag1" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.Adminfrag2"
+            android:label="@string/title_activity_adminfrag2" >
+        </activity>
+        <activity
+            android:name="com.example.connoisseur.BurgerFragent1"
+            android:label="@string/title_activity_burger_fragent1" >
+        </activity>
+    </application>
+
+</manifest>
